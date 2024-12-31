@@ -27,7 +27,7 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>My todos for this project</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
@@ -35,7 +35,7 @@ function App() {
         ))}
       </ul>
       <div>
-        🥳 App successfully hosted. Try creating a new todo.
+        🥳 App successfully hosted on localhost. Try creating a new todo.
         <br />
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
           Review next step of this tutorial.
